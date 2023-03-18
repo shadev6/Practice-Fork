@@ -66,3 +66,33 @@ include ntpmodule
 alias cdpp ="cd $(puppet config print manifest)"
 
 
+
+#flow
+
+
+# wget --content-disposition 'https://pm.puppetlabs.com/puppet-agent/2021.4.0/7.12.1/repos/deb/bionic/puppet7/puppet-agent_7.12.1-1bionic_amd64.deb' 
+
+
+# sudo apt-get install nano
+
+
+# apt-get install iproute2
+# ip addr | grep global
+# nano /etc/puppetlabs/puppet/puppet.conf
+
+
+# sudo /opt/puppetlabs/bin/puppetserver ca list --all
+
+
+On the client node (Puppet Agent), sends its first request.
+# /opt/puppetlabs/bin/puppet agent --test
+
+
+# sudo /opt/puppetlabs/bin/puppetserver ca sign –all
+
+
+# /opt/puppetlabs/bin/puppet agent –test
+
+
+
+
